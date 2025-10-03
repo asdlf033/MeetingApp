@@ -18,7 +18,7 @@ const WorkPlace = () => {
   const [workPlace, setWorkPlace] = useState('');
   const navigation = useNavigation();
   const handleNext = () => {
-    navigation.navigate("WorkPlace")
+    navigation.navigate("JobTitle")
   }
 
   return (
@@ -80,7 +80,7 @@ const WorkPlace = () => {
         />
 
         <TouchableOpacity
-          // onPress={handleNext}
+          onPress={handleNext}
           activeOpacity={0.8}
           style={{ marginTop: 30, marginLeft: 'auto' }}
         >
