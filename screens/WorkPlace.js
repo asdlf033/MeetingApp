@@ -42,7 +42,7 @@ const WorkPlace = () => {
               alignItems: 'center',
             }}
           >
-            <MaterialDesignIcons name="location-enter" size={23} color="black" />
+            <MaterialDesignIcons name="briefcase-outline" size={23} color="black" />
           </View>
           <Image
             style={{ width: 100, height: 40 }}

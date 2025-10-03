@@ -11,7 +11,6 @@ import {
 import React, { useState, useEffect } from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialDesignIcons from 'react-native-vector-icons/MaterialIcons';
-import FontAwasome from '@react-native-vector-icons/fontawesome6';
 import { useNavigation } from '@react-navigation/native';
 
 const HomeTownScreen = () => {
